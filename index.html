@@ -1,59 +1,154 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <title>Feedback Form</title>
-    </head>
+<head>
+    <title>Feedback Form</title>
 
-    <body>
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+
+<body>
+    <section>
         <h1>Feedback Form</h1>
+
         <p>Required*</p>
+
         <h4>Full Name*</h4>
-        <input placeholder="your answer">
 
-        <h4>Phone Number*</h4>
-        <input placeholder="your answer">
+        <input class="name-inpt" placeholder="your answer">
+    </section>
 
-        <h4>Email</h4>
-        <input placeholder="your answer">
+    <section>
+        <div>
+            <h4>Phone Number*</h4>
 
-        <h4>Gender</h4>
-        <input type="radio">Male<br>
-        <input type="radio">Female
+            <input class="nmbr-inpt" placeholder="your answer">
+        </div>
 
-        <h3>Age</h3>
-        <input placeholder="your answer">
+        <div>
+            <h4>Email</h4>
 
-        <h3>Date of Birth</h3>
-        <input type="date">
+            <input class="mail-inpt" placeholder="your answer">
+        </div>
 
-        <h3>Choose all life skills whould you like to learn in TK 2019</h3>
-        <input type="checkbox">Problem Solving<br>
-        <input type="checkbox">Team Work<br>
-        <input type="checkbox">Presentation Skills<br>
-        <input type="checkbox">Self Defence <br>
-        <input type="checkbox">Work Ethics<br>
+        <div>
+            <h4>Gender</h4>
+            <div>
+                <input type="radio">Male
+            </div>
+            <div>
+                <input type="radio">Female
+            </div>
 
-        <h3>Rate the Orientation class of TK 2019</h3>
-        
+        </div>
 
-        <input type="radio">1
-       
-        <input type="radio">2
-        <input type="radio">3
-        <input type="radio">4
-        <input type="radio">5
-        <input type="radio">6
+        <div>
+            <h3>Age</h3>
 
+            <input class="age-inpt" placeholder="your answer">
+        </div>
 
+        <div>
+            <h3>Date of Birth</h3>
+
+            <input class="date-inpt" type="date">
+        </div>
+    </section>
+
+    <section>
+        <h3>
+            Choose all life skills whould you like to learn in TK 2019
+        </h3>
+        <div>
+            <input type="checkbox">Problem Solving
+        </div>
+        <div>
+            <input type="checkbox">Team Work
+        </div>
+        <div>
+            <input type="checkbox">Presentation Skills
+        </div>
+        <div>
+            <input type="checkbox">Self Defence
+        </div>
+        <div>
+            <input class="checkbx" type="checkbox">Work Ethics
+        </div>
+    </section>
+
+    <section>
+        <h3>
+            Rate the Orientation class of TK 2019
+        </h3>
+
+        <div class="radio-btn">
+            <p>1</p>
+
+            <input type="radio">
+        </div>
+
+        <div class="radio-btn">
+            <p>2</p>
+
+            <input type="radio">
+        </div>
+
+        <div class="radio-btn">
+            <p>3</p>
+
+            <input type="radio">
+        </div>
+
+        <div class="radio-btn">
+            <p>4</p>
+
+            <input type="radio">
+        </div>
+
+        <div class="radio-btn">
+            <p>5</p>
+
+            <input type="radio">
+        </div>
+
+        <div class="radio-btn">
+            <p>6</p>
+
+            <input type="radio">
+        </div>
+
+        <div class="radio-btn">
+            <p>7</p>
+
+            <input type="radio">
+        </div>
+
+        <div class="radio-btn">
+            <p>8</p>
+
+            <input type="radio">
+        </div>
+
+        <div class="radio-btn">
+            <p>9</p>
+
+            <input type="radio">
+        </div>
+
+        <div class="radio-btn">
+            <p>10</p>
+
+            <input type="radio">
+        </div>
 
         <h3>Comment</h3>
-		<input type placeholder="your answer">
-		<hr>
 
+        <input class="input-comment" type="type" placeholder="your answer"></input>
+    </section>
+
+    <section class="hr">
         <button>Submit</button>
-
-
-    </body>
+    </section>
+</body>
 
 </html>

@@ -1,0 +1,31 @@
+.hr {
+    padding: 10px;
+}
+
+.name-inpt,
+.nmbr-inpt,
+.mail-inpt,
+.age-inpt,
+.date-inpt {
+    padding: 7px;
+    width: 200px;
+}
+
+.input-comment {
+    padding: 20px;
+    height: 30px;
+    width: 300px;
+}
+
+h1 {
+    font-size: bold;
+}
+
+button {
+    padding: 5px 10px;
+}
+
+.radio-btn {
+    display: inline-block;
+    padding: 5px;
+}
